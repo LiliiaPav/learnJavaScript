@@ -56,8 +56,16 @@ const overNinety = students.find((i) => i.grade> 90);
 console.log(overNinety);
 
 
+const grades2 = [88, 75, 92, 95, 85];
 
 
+
+grades2.forEach((i)=>{
+    if (i>90){console.log('High: ', i)}
+})
+
+console.log(grades2.find((i) => i< 80));
+console.log(grades2.findIndex((i) => i> 90));
 
 
 
